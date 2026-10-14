@@ -1,0 +1,18 @@
+t=0: P1 arrives
+t=0: P1 starts running (PRIO_NP, prio=3)
+t=5: P1 completes
+t=1: P2 arrives
+t=2: P3 arrives
+t=3: P4 arrives
+t=4: P5 arrives
+t=5: P2 starts running (PRIO_NP, prio=1)
+t=8: P2 completes
+t=6: P6 arrives
+t=8: P5 starts running (PRIO_NP, prio=1)
+t=10: P5 completes
+t=10: P4 starts running (PRIO_NP, prio=2)
+t=16: P4 completes
+t=16: P6 starts running (PRIO_NP, prio=3)
+t=20: P6 completes
+t=20: P3 starts running (PRIO_NP, prio=4)
+t=28: P3 completes

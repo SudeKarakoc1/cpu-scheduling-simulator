@@ -1,0 +1,24 @@
+t=0: P1 arrives
+t=0: P1 starts/resumes running (RR, q=4)
+t=1: P2 arrives
+t=2: P3 arrives
+t=3: P4 arrives
+t=4: P5 arrives
+t=4: quantum expired for P1, re-queued (remaining=1)
+t=4: P2 starts/resumes running (RR, q=4)
+t=6: P6 arrives
+t=7: P2 completes
+t=7: P3 starts/resumes running (RR, q=4)
+t=11: quantum expired for P3, re-queued (remaining=4)
+t=11: P4 starts/resumes running (RR, q=4)
+t=15: quantum expired for P4, re-queued (remaining=2)
+t=15: P5 starts/resumes running (RR, q=4)
+t=17: P5 completes
+t=17: P1 starts/resumes running (RR, q=4)
+t=18: P1 completes
+t=18: P6 starts/resumes running (RR, q=4)
+t=22: P6 completes
+t=22: P3 starts/resumes running (RR, q=4)
+t=26: P3 completes
+t=26: P4 starts/resumes running (RR, q=4)
+t=28: P4 completes
