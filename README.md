@@ -17,7 +17,8 @@ pip install matplotlib
 ```
 
 ## 3. Project Structure
-Scheduler/
+```text
+cpu-scheduling-simulator/
 ├── scheduler.py
 ├── processes.txt
 ├── README.md
@@ -36,6 +37,7 @@ Scheduler/
 │       └── common.py
 ├── logs/
 └── graphs/
+```
 
 ## 4. How to Run the Simulator
  - Run all algorithms and generate comparison graphs:
